@@ -7,7 +7,8 @@
 <link href="страница6.css" rel="stylesheet">
 </head>
 <body>
-<div id="wb_Breadcrumb1" style="position:absolute;left:4px;top:3px;width:1359px;height:58px;z-index:0;vertical-align:top;">
+
+<div id="wb_Breadcrumb1" style="position:absolute;left:4px;top:3px;width:1359px;height:58px;z-index:1;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li><a href="">Home</a></li>
 <li><a href="./страница1.html">&#1053;&#1077;&#1086;&#1092;&#1080;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1087;&#1088;&#1086;&#1096;&#1080;&#1074;&#1082;&#1080;</a></li>
@@ -20,6 +21,9 @@
 <li><a href="./страница8.html">&#1057;&#1089;&#1099;&#1083;&#1082;&#1080;<br></a></li>
 </ul>
 </div>
-
+<div id="wb_Heading1" style="position:absolute;left:4px;top:69px;width:1359px;height:86px;z-index:2;">
+<h1 id="Heading1">New installation steps for every AOSP ROM <br>Clean flash, this will erase everything inside your storage</h1></div>
+<div id="wb_Text1" style="position:absolute;left:4px;top:175px;width:1359px;height:299px;text-align:center;z-index:3;">
+<span style="color:#000000;font-family:Arial;font-size:20px;">1. Format data<br>2. Reboot recovery<br>3. Wipe all except OTG and SDCard partitions<br>4. Flash <a href="https://sourceforge.net/projects/z5s-roms/files/Firmware/FirmwareQUpdater.zip/download">FirmwareQUpdater</a> (for Android 10) or <a href="https://sourceforge.net/projects/z5s-roms/files/Firmware/FirmwareR1Updater.zip/download">FirmwareR1Updater</a> (for android 11)<br>5. Flash ROM<br>6. Reboot recovery<br>(Optional step. Resize system if you want to have more space in your system partition)<br>7. Flash any GApps (if they weren't already included) and/or mods (like magisk)<br>Note: This will also work without qfil rom, if you skip any of these flashing steps you will get a bootloader error and you will have to flash qfil rom or flash vbmeta from the group note #bootloaderLoop-fix<br><br>Do not flash FirmwareR1Updater on a10 ROMs or you will probably get audio policy bugs, specially with things like Bluetooth earphones where they will not work</span></div>
 </body>
 </html>
